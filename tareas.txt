@@ -1,0 +1,114 @@
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+
+0 0 * * * curl http://127.0.0.1/importar/importar-articulos.php > /dev/null
+10 0 * * * curl http://127.0.0.1/importar/importar-bases.php > /dev/null
+15 0 * * * curl http://127.0.0.1/importar/importar-ciudades.php > /dev/null
+25 0 * * * curl http://127.0.0.1/importar/importar-clientes.php > /dev/null
+35 0 * * * curl http://127.0.0.1/importar/importar-costos-fijos-ds.php > /dev/null
+45 0 * * * curl http://127.0.0.1/importar/importar-costos-fijos-principal.php > /dev/null
+
+0 1 * * * curl http://127.0.0.1/importar/importar-grupos-super-rubros.php > /dev/null
+5 1 * * * curl http://127.0.0.1/importar/importar-marcas.php > /dev/null
+10 1 * * * curl http://127.0.0.1/importar/importar-provincias.php > /dev/null
+15 1 * * * curl http://127.0.0.1/importar/importar-rubros.php > /dev/null
+20 1 * * * curl http://127.0.0.1/importar/importar-sucursales.php > /dev/null
+25 1 * * * curl http://127.0.0.1/importar/importar-super-rubros.php > /dev/null
+30 1 * * * curl http://127.0.0.1/importar/importar-tipos-venta.php > /dev/null
+35 1 * * * curl http://127.0.0.1/importar/importar-vendedores.php > /dev/null
+40 1 * * * curl http://127.0.0.1/importar/importar-zonas.php > /dev/null
+45 1 * * * curl http://127.0.0.1/importar/importar-ventas-ds.php > /dev/null
+
+0 2 * * * curl http://127.0.0.1/importar/importar-ventas-principal.php > /dev/null
+
+30 2 * * * curl http://127.0.0.1/scripts/borrar-pedidos-15-dias.php > /dev/null
+35 2 * * * curl http://127.0.0.1/importar/inflacion-mes.php > /dev/null
+40 2 * * * curl http://127.0.0.1/importar/importar-stock.php > /dev/null
+50 2 * * * curl http://127.0.0.1/importar/importar-deudas-clientes-ds.php > /dev/null
+0 3 * * * curl http://127.0.0.1/importar/importar-deudas-clientes-principal.php > /dev/null
+10 3 * * * curl http://127.0.0.1/importar/importar-deudas-proveedores-ds.php > /dev/null
+20 3 * * * curl http://127.0.0.1/importar/importar-deudas-proveedores-principal.php > /dev/null
+30 3 * * * curl http://127.0.0.1/importar/importar-cobranzas.php > /dev/null
+40 3 * * * curl http://127.0.0.1/borrar_cache.php > /dev/null
+
+
+#cachear imagenes de ventas por meses
+
+5 4 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Total&ai=A.I Si&periodo=Meses" > /dev/null
+13 4 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Pico&ai=A.I Si&periodo=Meses" > /dev/null
+21 4 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=MDP&ai=A.I Si&periodo=Meses" > /dev/null
+
+29 4 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Total&ai=A.I Si&periodo=Meses" > /dev/null
+37 4 * * * curl -G http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Pico&ai=A.I Si&periodo=Meses" > /dev/null
+45 4 * * * curl -G http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=MDP&ai=A.I Si&periodo=Meses" > /dev/null
+
+53 4 * * * curl -G http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Total&ai=A.I No&periodo=Meses > /dev/null
+1 5 * * * curl -G http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Pico&ai=A.I No&periodo=Meses > /dev/null
+9 5 * * * curl -G http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=MDP&ai=A.I No&periodo=Meses > /dev/null
+
+17 5 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Total&ai=A.I No&periodo=Meses" > /dev/null
+25 5 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Pico&ai=A.I No&periodo=Meses" > /dev/null
+33 5 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=MDP&ai=A.I No&periodo=Meses" > /dev/null
+
+
+#cachear imagenes de ventas por trimestre
+
+41 5 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Total&ai=A.I Si&periodo=Trimestre" > /dev/null
+49 5 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Pico&ai=A.I Si&periodo=Trimestre" > /dev/null
+57 5 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=MDP&ai=A.I Si&periodo=Trimestre" > /dev/null
+
+5 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Total&ai=A.I Si&periodo=Trimestre" > /dev/null
+13 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Pico&ai=A.I Si&periodo=Trimestre" > /dev/null
+21 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=MDP&ai=A.I Si&periodo=Trimestre" > /dev/null
+
+29 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Total&ai=A.I No&periodo=Trimestre" > /dev/null
+37 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Pico&ai=A.I No&periodo=Trimestre" > /dev/null
+45 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=MDP&ai=A.I No&periodo=Trimestre" > /dev/null
+
+53 6 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Total&ai=A.I No&periodo=Trimestre" > /dev/null
+1 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Pico&ai=A.I No&periodo=Trimestre" > /dev/null
+9 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=MDP&ai=A.I No&periodo=Trimestre" > /dev/null
+
+
+#cachear imagenes de ventas por año
+
+17 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Total&ai=A.I Si&periodo=Año" > /dev/null
+25 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Pico&ai=A.I Si&periodo=Año" > /dev/null
+33 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=MDP&ai=A.I Si&periodo=Año" > /dev/null
+
+41 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Total&ai=A.I Si&periodo=Año" > /dev/null
+49 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Pico&ai=A.I Si&periodo=Año" > /dev/null
+57 7 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=MDP&ai=A.I Si&periodo=Año" > /dev/null
+
+5 8 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Total&ai=A.I No&periodo=Año" > /dev/null
+13 8 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=Pico&ai=A.I No&periodo=Año" > /dev/null
+21 8 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver U&sucursal=MDP&ai=A.I No&periodo=Año" > /dev/null
+
+29 8 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Total&ai=A.I No&periodo=Año" > /dev/null
+37 8 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=Pico&ai=A.I No&periodo=Año" > /dev/null
+45 8 * * * curl -G "http://127.0.0.1/ventas.php" --data-urlencode "ver=Ver $&sucursal=MDP&ai=A.I No&periodo=Año" > /dev/null
+
+
+
+
+

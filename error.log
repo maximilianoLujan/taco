@@ -1,0 +1,264 @@
+PHP Deprecated:  Comments starting with '#' are deprecated in /etc/php5/apache2/conf.d/20-interbase.ini on line 1 in Unknown on line 0
+[Mon May 15 06:33:42.927794 2017] [mpm_prefork:notice] [pid 1235] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.19 configured -- resuming normal operations
+[Mon May 15 06:33:42.927809 2017] [core:notice] [pid 1235] AH00094: Command line: '/usr/sbin/apache2'
+[Mon May 15 06:37:01.443535 2017] [:error] [pid 28062] [client 127.0.0.1:42032] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 06:37:01.443563 2017] [:error] [pid 28062] [client 127.0.0.1:42032] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 06:37:01.443567 2017] [:error] [pid 28062] [client 127.0.0.1:42032] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 06:37:01.487121 2017] [:error] [pid 28062] [client 127.0.0.1:42032] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 06:37:01.523141 2017] [:error] [pid 28062] [client 127.0.0.1:42032] PHP Warning:  imagepng(): Unable to open './cache/91225f184276a04e7496f7f089cade52.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 06:45:01.582723 2017] [:error] [pid 28059] [client 127.0.0.1:42033] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 06:45:01.582745 2017] [:error] [pid 28059] [client 127.0.0.1:42033] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 06:45:01.582748 2017] [:error] [pid 28059] [client 127.0.0.1:42033] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 06:45:01.606790 2017] [:error] [pid 28059] [client 127.0.0.1:42033] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 06:45:01.641900 2017] [:error] [pid 28059] [client 127.0.0.1:42033] PHP Warning:  imagepng(): Unable to open './cache/a9ef180a4f906e12f9651ba7ced4bbbb.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 06:53:01.658996 2017] [:error] [pid 28060] [client 127.0.0.1:42034] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 06:53:01.659015 2017] [:error] [pid 28060] [client 127.0.0.1:42034] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 06:53:01.659019 2017] [:error] [pid 28060] [client 127.0.0.1:42034] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 06:53:01.683740 2017] [:error] [pid 28060] [client 127.0.0.1:42034] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 06:53:01.719733 2017] [:error] [pid 28060] [client 127.0.0.1:42034] PHP Warning:  imagepng(): Unable to open './cache/67399e6f7dec7cf555bab37cc2095e2e.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 06:58:23.232135 2017] [access_compat:error] [pid 28061] [client 121.140.130.251:7401] AH01797: client denied by server configuration: /var/www/html/
+[Mon May 15 07:01:01.736795 2017] [:error] [pid 28063] [client 127.0.0.1:42035] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:01:01.736825 2017] [:error] [pid 28063] [client 127.0.0.1:42035] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:01:01.736828 2017] [:error] [pid 28063] [client 127.0.0.1:42035] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:01:01.761069 2017] [:error] [pid 28063] [client 127.0.0.1:42035] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:01:01.796721 2017] [:error] [pid 28063] [client 127.0.0.1:42035] PHP Warning:  imagepng(): Unable to open './cache/3af0df8b9c0b7ce12852bcaa78db0e26.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:09:01.813761 2017] [:error] [pid 28062] [client 127.0.0.1:42036] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:09:01.813774 2017] [:error] [pid 28062] [client 127.0.0.1:42036] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:09:01.813778 2017] [:error] [pid 28062] [client 127.0.0.1:42036] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:09:01.859654 2017] [:error] [pid 28062] [client 127.0.0.1:42036] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:09:01.908086 2017] [:error] [pid 28062] [client 127.0.0.1:42036] PHP Warning:  imagepng(): Unable to open './cache/046b2c2565746eb6ad376f4b9f24cce9.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:17:01.925179 2017] [:error] [pid 28059] [client 127.0.0.1:42037] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:17:01.925193 2017] [:error] [pid 28059] [client 127.0.0.1:42037] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:17:01.925197 2017] [:error] [pid 28059] [client 127.0.0.1:42037] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:17:01.949034 2017] [:error] [pid 28059] [client 127.0.0.1:42037] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:17:01.984246 2017] [:error] [pid 28059] [client 127.0.0.1:42037] PHP Warning:  imagepng(): Unable to open './cache/00e5c841927337d44965d41f170b57c8.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:25:01.999649 2017] [:error] [pid 28060] [client 127.0.0.1:42038] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:25:01.999664 2017] [:error] [pid 28060] [client 127.0.0.1:42038] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:25:01.999667 2017] [:error] [pid 28060] [client 127.0.0.1:42038] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:25:02.021669 2017] [:error] [pid 28060] [client 127.0.0.1:42038] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:25:02.056946 2017] [:error] [pid 28060] [client 127.0.0.1:42038] PHP Warning:  imagepng(): Unable to open './cache/c0d53f2f8a39ecbabd02ec3754ee817d.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:33:01.074346 2017] [:error] [pid 28109] [client 127.0.0.1:42039] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:33:01.074372 2017] [:error] [pid 28109] [client 127.0.0.1:42039] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:33:01.074375 2017] [:error] [pid 28109] [client 127.0.0.1:42039] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:33:01.098684 2017] [:error] [pid 28109] [client 127.0.0.1:42039] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:33:01.134250 2017] [:error] [pid 28109] [client 127.0.0.1:42039] PHP Warning:  imagepng(): Unable to open './cache/24849f162b51d0f4dc168869d4732abf.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:41:01.188478 2017] [:error] [pid 28061] [client 127.0.0.1:42040] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:41:01.188509 2017] [:error] [pid 28061] [client 127.0.0.1:42040] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:41:01.188512 2017] [:error] [pid 28061] [client 127.0.0.1:42040] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:41:01.212382 2017] [:error] [pid 28061] [client 127.0.0.1:42040] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:41:01.247559 2017] [:error] [pid 28061] [client 127.0.0.1:42040] PHP Warning:  imagepng(): Unable to open './cache/dbe8af5f3bb07fb96d4b37fa0973af7c.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:49:01.263194 2017] [:error] [pid 28063] [client 127.0.0.1:42041] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:49:01.263208 2017] [:error] [pid 28063] [client 127.0.0.1:42041] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:49:01.263212 2017] [:error] [pid 28063] [client 127.0.0.1:42041] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:49:01.285503 2017] [:error] [pid 28063] [client 127.0.0.1:42041] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:49:01.320338 2017] [:error] [pid 28063] [client 127.0.0.1:42041] PHP Warning:  imagepng(): Unable to open './cache/0697a86b443ad487915bb23d586327f6.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 07:57:01.336042 2017] [:error] [pid 28062] [client 127.0.0.1:42042] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 07:57:01.336069 2017] [:error] [pid 28062] [client 127.0.0.1:42042] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 07:57:01.336072 2017] [:error] [pid 28062] [client 127.0.0.1:42042] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 07:57:01.358310 2017] [:error] [pid 28062] [client 127.0.0.1:42042] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 07:57:01.393189 2017] [:error] [pid 28062] [client 127.0.0.1:42042] PHP Warning:  imagepng(): Unable to open './cache/b95b035c840f2a3b0350a53da3ee8295.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 08:05:01.409028 2017] [:error] [pid 28059] [client 127.0.0.1:42043] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 08:05:01.409041 2017] [:error] [pid 28059] [client 127.0.0.1:42043] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 08:05:01.409044 2017] [:error] [pid 28059] [client 127.0.0.1:42043] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 08:05:01.431366 2017] [:error] [pid 28059] [client 127.0.0.1:42043] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 08:05:01.466946 2017] [:error] [pid 28059] [client 127.0.0.1:42043] PHP Warning:  imagepng(): Unable to open './cache/f756459b71d14810110e8fb8d99a1538.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 08:13:01.519605 2017] [:error] [pid 28060] [client 127.0.0.1:42044] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 08:13:01.519619 2017] [:error] [pid 28060] [client 127.0.0.1:42044] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 08:13:01.519622 2017] [:error] [pid 28060] [client 127.0.0.1:42044] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 08:13:01.542217 2017] [:error] [pid 28060] [client 127.0.0.1:42044] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 08:13:01.577879 2017] [:error] [pid 28060] [client 127.0.0.1:42044] PHP Warning:  imagepng(): Unable to open './cache/0fa70e3216c7bfe8878c0da2f85a6062.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 08:21:01.596827 2017] [:error] [pid 28109] [client 127.0.0.1:42045] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 08:21:01.596847 2017] [:error] [pid 28109] [client 127.0.0.1:42045] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 08:21:01.596851 2017] [:error] [pid 28109] [client 127.0.0.1:42045] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 08:21:01.618986 2017] [:error] [pid 28109] [client 127.0.0.1:42045] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 08:21:01.654038 2017] [:error] [pid 28109] [client 127.0.0.1:42045] PHP Warning:  imagepng(): Unable to open './cache/33c09d4d146e90bc641cef7f939b161f.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 08:29:01.669605 2017] [:error] [pid 28061] [client 127.0.0.1:42046] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 08:29:01.669618 2017] [:error] [pid 28061] [client 127.0.0.1:42046] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 08:29:01.669621 2017] [:error] [pid 28061] [client 127.0.0.1:42046] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 08:29:01.691907 2017] [:error] [pid 28061] [client 127.0.0.1:42046] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 08:29:01.727950 2017] [:error] [pid 28061] [client 127.0.0.1:42046] PHP Warning:  imagepng(): Unable to open './cache/0c2f703b4c59f6e77c2d079751542419.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 08:37:01.743064 2017] [:error] [pid 28063] [client 127.0.0.1:42047] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 08:37:01.743078 2017] [:error] [pid 28063] [client 127.0.0.1:42047] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 08:37:01.743082 2017] [:error] [pid 28063] [client 127.0.0.1:42047] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 08:37:01.765319 2017] [:error] [pid 28063] [client 127.0.0.1:42047] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 08:37:01.800351 2017] [:error] [pid 28063] [client 127.0.0.1:42047] PHP Warning:  imagepng(): Unable to open './cache/f762072bf0c4d3183b04eaea60b7eb0c.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 08:45:01.853621 2017] [:error] [pid 28062] [client 127.0.0.1:42048] PHP Notice:  Undefined index: sucursal in /var/www/html/ventas.php on line 15
+[Mon May 15 08:45:01.853636 2017] [:error] [pid 28062] [client 127.0.0.1:42048] PHP Notice:  Undefined index: ai in /var/www/html/ventas.php on line 16
+[Mon May 15 08:45:01.853639 2017] [:error] [pid 28062] [client 127.0.0.1:42048] PHP Notice:  Undefined index: periodo in /var/www/html/ventas.php on line 17
+[Mon May 15 08:45:01.876246 2017] [:error] [pid 28062] [client 127.0.0.1:42048] PHP Notice:  Undefined variable: numero_color in /var/www/html/class/pDraw.class.php on line 4576
+[Mon May 15 08:45:01.911724 2017] [:error] [pid 28062] [client 127.0.0.1:42048] PHP Warning:  imagepng(): Unable to open './cache/f7777cbb5b6dadcd11dc31311882e05a.png' for writing: Permission denied in /var/www/html/class/pImage.class.php on line 151
+[Mon May 15 09:37:24.125178 2017] [access_compat:error] [pid 28059] [client 104.128.144.131:45464] AH01797: client denied by server configuration: /var/www/html/
+[Mon May 15 09:37:24.528152 2017] [access_compat:error] [pid 28060] [client 104.128.144.131:36363] AH01797: client denied by server configuration: /var/www/html/redirect.php
+[Mon May 15 12:16:51.403921 2017] [access_compat:error] [pid 28061] [client 181.168.216.202:65163] AH01797: client denied by server configuration: /var/www/html/vta/
+[Mon May 15 12:17:04.627313 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:65193] AH01797: client denied by server configuration: /var/www/html/vta/
+[Mon May 15 12:17:04.628156 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:65193] AH01797: client denied by server configuration: /var/www/html/vta/index.php
+[Mon May 15 12:17:06.671089 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671119 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671127 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671134 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671140 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671147 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671153 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671159 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671165 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671171 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671177 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671182 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671188 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.671193 2017] [:error] [pid 28063] [client 181.168.216.202:65193] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/index.php on line 145
+[Mon May 15 12:17:06.831367 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:65193] AH01797: client denied by server configuration: /var/www/html/vta/script.js, referer: http://54.94.227.251/vta/
+[Mon May 15 12:17:43.103882 2017] [access_compat:error] [pid 28062] [client 181.168.216.202:52562] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:17:43.105923 2017] [:error] [pid 28062] [client 181.168.216.202:52562] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:17:43.180586 2017] [access_compat:error] [pid 28062] [client 181.168.216.202:52562] AH01797: client denied by server configuration: /var/www/html/vta/img/separador.gif, referer: http://54.94.227.251/vta/est.css?
+[Mon May 15 12:17:43.221610 2017] [access_compat:error] [pid 28059] [client 181.168.216.202:52563] AH01797: client denied by server configuration: /var/www/html/vta/img/desc.gif, referer: http://54.94.227.251/vta/est.css?
+[Mon May 15 12:18:29.618367 2017] [access_compat:error] [pid 28060] [client 181.168.216.202:52569] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619293 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619596 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619612 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619619 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619626 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619632 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619639 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619646 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619653 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619659 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619665 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619670 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619676 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619682 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:18:29.619687 2017] [:error] [pid 28060] [client 181.168.216.202:52569] PHP Notice:  Undefined variable: cabecera in /var/www/html/vta/cargar-campos.php on line 108, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:28.703912 2017] [access_compat:error] [pid 28109] [client 181.168.216.202:52213] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:28.704827 2017] [:error] [pid 28109] [client 181.168.216.202:52213] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.681610 2017] [access_compat:error] [pid 28061] [client 181.168.216.202:52217] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.682446 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683301 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683318 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683327 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683335 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683343 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683350 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683358 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683365 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683372 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683380 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683387 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683394 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:37.683400 2017] [:error] [pid 28061] [client 181.168.216.202:52217] PHP Notice:  Undefined variable: cabecera in /var/www/html/vta/cargar-campos.php on line 108, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:43.111843 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:52218] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:43.118653 2017] [:error] [pid 28063] [client 181.168.216.202:52218] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:43.120193 2017] [:error] [pid 28063] [client 181.168.216.202:52218] PHP Notice:  Undefined index: msg in /var/www/html/vta/funciones.php on line 315, referer: http://54.94.227.251/vta/
+[Mon May 15 12:22:44.158018 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:52218] AH01797: client denied by server configuration: /var/www/html/img/desc.gif, referer: http://54.94.227.251/general.css?
+[Mon May 15 12:22:44.215641 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:52218] AH01797: client denied by server configuration: /var/www/html/img/desc.gif, referer: http://54.94.227.251/general.css?
+[Mon May 15 12:23:05.289046 2017] [access_compat:error] [pid 28730] [client 181.168.216.202:52220] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:05.292809 2017] [:error] [pid 28730] [client 181.168.216.202:52220] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.242353 2017] [access_compat:error] [pid 28062] [client 181.168.216.202:52221] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243124 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243245 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243259 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243268 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243276 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243283 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243292 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243300 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243307 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243314 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243322 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243329 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243336 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:15.243342 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: cabecera in /var/www/html/vta/cargar-campos.php on line 108, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:17.704890 2017] [access_compat:error] [pid 28062] [client 181.168.216.202:52221] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:17.705650 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:17.705865 2017] [:error] [pid 28062] [client 181.168.216.202:52221] PHP Notice:  Undefined index: msg in /var/www/html/vta/funciones.php on line 315, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.270649 2017] [access_compat:error] [pid 28059] [client 181.168.216.202:52225] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271516 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271638 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271653 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271662 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271669 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271676 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271684 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271691 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271698 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271705 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271712 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271718 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271725 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271731 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:30.271737 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: cabecera in /var/www/html/vta/cargar-campos.php on line 108, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:32.521091 2017] [access_compat:error] [pid 28059] [client 181.168.216.202:52225] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:32.521850 2017] [:error] [pid 28059] [client 181.168.216.202:52225] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.168663 2017] [access_compat:error] [pid 28060] [client 181.168.216.202:52233] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169506 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169789 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169806 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169815 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169824 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169831 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169839 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169847 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169855 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169862 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169870 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169877 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169885 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:39.169891 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: cabecera in /var/www/html/vta/cargar-campos.php on line 108, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:40.743276 2017] [access_compat:error] [pid 28060] [client 181.168.216.202:52233] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:40.744032 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:40.744254 2017] [:error] [pid 28060] [client 181.168.216.202:52233] PHP Notice:  Undefined index: msg in /var/www/html/vta/funciones.php on line 315, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:49.073936 2017] [access_compat:error] [pid 28109] [client 181.168.216.202:52243] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:23:49.074722 2017] [:error] [pid 28109] [client 181.168.216.202:52243] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.553122 2017] [access_compat:error] [pid 28061] [client 181.168.216.202:52274] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.553897 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554046 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554073 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554082 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554089 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554097 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554105 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554113 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554120 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554128 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554135 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554142 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554150 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: columnas_vacias in /var/www/html/vta/cargar-campos.php on line 98, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:09.554155 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: cabecera in /var/www/html/vta/cargar-campos.php on line 108, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:11.053784 2017] [access_compat:error] [pid 28061] [client 181.168.216.202:52274] AH01797: client denied by server configuration: /var/www/html/vta/cargar-campos.php, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:11.054578 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined variable: html in /var/www/html/vta/cargar-campos.php on line 10, referer: http://54.94.227.251/vta/
+[Mon May 15 12:24:11.054813 2017] [:error] [pid 28061] [client 181.168.216.202:52274] PHP Notice:  Undefined index: msg in /var/www/html/vta/funciones.php on line 315, referer: http://54.94.227.251/vta/
+[Mon May 15 14:28:06.138655 2017] [access_compat:error] [pid 28063] [client 66.249.85.133:65514] AH01797: client denied by server configuration: /var/www/html/login/, referer: http://www.google.com/search
+[Mon May 15 14:28:06.199420 2017] [access_compat:error] [pid 28730] [client 66.249.83.17:34088] AH01797: client denied by server configuration: /var/www/html/
+[Mon May 15 14:28:06.200378 2017] [access_compat:error] [pid 28062] [client 66.249.83.15:64526] AH01797: client denied by server configuration: /var/www/html/caja/
+[Mon May 15 14:28:06.201694 2017] [access_compat:error] [pid 28059] [client 66.249.83.15:57877] AH01797: client denied by server configuration: /var/www/html/login/
+[Mon May 15 14:28:09.092770 2017] [access_compat:error] [pid 28061] [client 66.249.83.19:64775] AH01797: client denied by server configuration: /var/www/html/favicon.ico
+[Mon May 15 15:47:33.366224 2017] [access_compat:error] [pid 28885] [client 2.136.175.228:7283] AH01797: client denied by server configuration: /var/www/html/
+[Mon May 15 16:00:50.721491 2017] [access_compat:error] [pid 28063] [client 66.249.85.131:55590] AH01797: client denied by server configuration: /var/www/html/login/, referer: http://www.google.com/search
+[Mon May 15 17:01:36.343505 2017] [access_compat:error] [pid 28730] [client 66.249.85.135:38847] AH01797: client denied by server configuration: /var/www/html/login/, referer: http://www.google.com/search
+[Mon May 15 17:18:59.949761 2017] [access_compat:error] [pid 28062] [client 91.196.50.33:48591] AH01797: client denied by server configuration: /var/www/html/testproxy.php
+[Mon May 15 18:31:30.937657 2017] [access_compat:error] [pid 28059] [client 66.249.85.133:57077] AH01797: client denied by server configuration: /var/www/html/login/, referer: http://www.google.com/search
+[Mon May 15 19:35:59.798109 2017] [access_compat:error] [pid 28060] [client 66.249.85.131:57907] AH01797: client denied by server configuration: /var/www/html/login/, referer: http://www.google.com/search
+[Mon May 15 20:08:05.454450 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/scripts/
+[Mon May 15 20:08:07.228188 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/scripts/
+[Mon May 15 20:08:07.228591 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/scripts/index.php
+[Mon May 15 20:08:07.293350 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/img/boton-home.png, referer: http://54.94.227.251/scripts/
+[Mon May 15 20:08:07.360513 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/img/boton-home.png, referer: http://54.94.227.251/scripts/
+[Mon May 15 20:08:11.878130 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/scripts/codigos_barra.php, referer: http://54.94.227.251/scripts/
+[Mon May 15 20:08:12.529291 2017] [access_compat:error] [pid 28883] [client 181.231.228.39:35586] AH01797: client denied by server configuration: /var/www/html/scripts/general.css, referer: http://54.94.227.251/scripts/codigos_barra.php
+[Mon May 15 20:08:25.760683 2017] [access_compat:error] [pid 28884] [client 181.231.228.39:35587] AH01797: client denied by server configuration: /var/www/html/scripts/codigos_barra.php, referer: http://54.94.227.251/scripts/codigos_barra.php
+[Mon May 15 20:28:01.177295 2017] [:error] [pid 28884] [client 181.231.228.39:35587] PHP Notice:  Undefined offset: 1 in /var/www/html/scripts/codigos_barra.php on line 51, referer: http://54.94.227.251/scripts/codigos_barra.php
+[Mon May 15 20:28:01.687922 2017] [access_compat:error] [pid 28884] [client 181.231.228.39:35587] AH01797: client denied by server configuration: /var/www/html/scripts/general.css, referer: http://54.94.227.251/scripts/codigos_barra.php
+[Mon May 15 20:33:20.304870 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:54804] AH01797: client denied by server configuration: /var/www/html/, referer: http://54.94.227.251/vta/
+[Mon May 15 20:33:20.459593 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:54804] AH01797: client denied by server configuration: /var/www/html/, referer: http://54.94.227.251/vta/
+[Mon May 15 20:33:20.459885 2017] [access_compat:error] [pid 28063] [client 181.168.216.202:54804] AH01797: client denied by server configuration: /var/www/html/index.php, referer: http://54.94.227.251/vta/
+[Mon May 15 20:37:35.594526 2017] [access_compat:error] [pid 28730] [client 66.249.85.131:40423] AH01797: client denied by server configuration: /var/www/html/login/, referer: http://www.google.com/search
+[Mon May 15 20:51:07.724678 2017] [access_compat:error] [pid 28062] [client 181.231.228.39:35831] AH01797: client denied by server configuration: /var/www/html/
+[Mon May 15 20:51:07.781631 2017] [access_compat:error] [pid 28062] [client 181.231.228.39:35831] AH01797: client denied by server configuration: /var/www/html/
+[Mon May 15 20:51:07.781903 2017] [access_compat:error] [pid 28062] [client 181.231.228.39:35831] AH01797: client denied by server configuration: /var/www/html/index.php
+[Mon May 15 20:51:08.408763 2017] [access_compat:error] [pid 28062] [client 181.231.228.39:35831] AH01797: client denied by server configuration: /var/www/html/general.css, referer: http://54.94.227.251/
+[Mon May 15 20:51:08.461525 2017] [access_compat:error] [pid 28062] [client 181.231.228.39:35831] AH01797: client denied by server configuration: /var/www/html/est.css, referer: http://54.94.227.251/
+[Mon May 15 20:51:08.468499 2017] [access_compat:error] [pid 28059] [client 181.231.228.39:35832] AH01797: client denied by server configuration: /var/www/html/js/jquery-1.7.2.min.js, referer: http://54.94.227.251/
+[Mon May 15 20:51:08.474433 2017] [access_compat:error] [pid 28109] [client 181.231.228.39:35833] AH01797: client denied by server configuration: /var/www/html/script.js, referer: http://54.94.227.251/
+[Mon May 15 20:51:09.718044 2017] [access_compat:error] [pid 28059] [client 181.231.228.39:35832] AH01797: client denied by server configuration: /var/www/html/img/taco-7.png, referer: http://54.94.227.251/general.css?
+[Mon May 15 20:51:09.718236 2017] [access_compat:error] [pid 28109] [client 181.231.228.39:35833] AH01797: client denied by server configuration: /var/www/html/img/candado-4.png, referer: http://54.94.227.251/general.css?
+[Mon May 15 20:51:11.452315 2017] [access_compat:error] [pid 28059] [client 181.231.228.39:35832] AH01797: client denied by server configuration: /var/www/html/scripts/, referer: http://54.94.227.251/
+[Mon May 15 20:51:11.452609 2017] [access_compat:error] [pid 28059] [client 181.231.228.39:35832] AH01797: client denied by server configuration: /var/www/html/scripts/index.php, referer: http://54.94.227.251/
+[Mon May 15 20:51:11.517591 2017] [access_compat:error] [pid 28059] [client 181.231.228.39:35832] AH01797: client denied by server configuration: /var/www/html/img/boton-home.png, referer: http://54.94.227.251/scripts/

@@ -1,0 +1,195 @@
+
+/* cabecera */
+
+#barra-fija{
+position:fixed;
+top:0;
+left:0;
+right:0;
+width:auto;
+max-width:100%;
+color:#fff;
+text-align:left;
+z-index:15;
+overflow:visible;
+background:#000;
+}
+#menu-principal{
+display:inline-block;
+}
+#clientes-activos{
+display:inline-block;
+float:right;
+padding:14px 9px 2px 12px;
+}
+
+/* botones */
+
+#barra-fija input[type='button'], #barra-fija input[type='submit'], #barra-fija .boton, #barra-fija a.boton{
+height:32px;
+font-size:1.1em;
+font-weight:bolder;
+color:#eee;
+display:inline-block;
+border:0 none;
+padding:4px 8px 3px;
+margin:6px 6px;
+overflow:hidden;
+background-color: #015486;
+cursor:pointer;
+}
+#barra-fija input[type='button'].presionado, #barra-fija input[type='submit'].presionado, #barra-fija input[type='button']:hover, #barra-fija input[type='submit']:hover, #barra-fija .boton:hover{
+color:#5f5;
+}
+#barra-fija a.boton{
+line-height:1.7em;
+}
+
+/* medidas especificas botones */
+
+#boton-unidad-tiempo-inicio, #boton-unidad-tiempo{
+min-width:6em;
+}{
+min-width:6em;
+}
+#ajuste-inflacion{
+min-width:4.5em;
+}
+#ver{
+min-width:4.5em;
+}
+#sucursal{
+min-width:4.5em;
+}
+#filas-vacias{
+min-width:6.5em;
+}
+#logo-taco{
+float:left;
+cursor:pointer;
+min-width:5em;
+height:32px;
+background: url(../img/taco-7.png) 50% 0 no-repeat !important;
+background-size: auto 200% !important;
+display:inline-block;
+padding:4px 8px 3px;
+margin:6px 2px 0;
+}
+#logo-taco:hover{
+background: url(../img/taco-7.png) 50% 100% no-repeat !important;
+background-size: auto 200% !important;
+}
+#barra-fija .btn-deshabilitado{
+color:#999 !important;
+}
+#boton-pass{
+cursor:pointer;
+height:32px;
+background: url(../img/candado-4.png) 50% 0 no-repeat #015486 !important;
+background-size: auto 200% !important;
+display:inline-block;
+padding:4px 8px 3px;
+margin:2px;
+text-indent:-50em;
+width:60px;
+}
+#boton-pass:hover{
+background: url(../img/candado-4.png) 50% 100% no-repeat #015486 !important;
+background-size: auto 200% !important;
+}
+
+@media screen and (max-width: 1080px){
+	html{
+	font-size:0.9em;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	#barra-fija input[type='button'], #barra-fija input[type='submit'], #barra-fija .boton{
+	height:25px;
+	font-size:1em;
+	font-weight:normal;
+	padding:3px 4px 3px;
+	margin:3px;
+	}
+	#boton-pass{
+	height:25px;
+	width:35px;
+	}
+	#logo-taco{
+	height:25px;
+	}
+}
+@media screen and (max-width: 930px){
+	html{
+	font-size:0.95em;
+	}
+}
+@media screen and (max-width: 800px){
+	#boton-unidad-tiempo-inicio, #boton-unidad-tiempo{
+	min-width:5em;
+	}
+	#ajuste-inflacion{
+	min-width:3.5em;
+	}
+	#ver{
+	min-width:4em;
+	}
+	#sucursal{
+	min-width:3.5em;
+	}
+	#filas-vacias{
+	min-width:6em;
+	}
+	#logo-taco{
+	padding:4px 2px 3px;
+	}
+	#boton-pass{
+	padding:4px 2px 3px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#barra-fija input[type='button'], #barra-fija input[type='submit'], #barra-fija .boton{
+	height:20px;
+	padding:0 2px;
+	margin:1px;
+	}
+	#boton-pass{
+	height:20px;
+	padding:0 2px;
+	margin:1px;
+	}
+	#logo-taco{
+	height:20px;
+	padding:0 2px;
+	margin:1px;
+	}
+}
+
+
+/* botones reordenar*/
+
+.boton-reordenar{
+padding-right:18px !important;
+background-image: url(../img/th.gif);
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+.ascendente{
+padding-right:18px !important;
+background-image: url(../img/asc.gif);
+background-position: right center;
+background-repeat: no-repeat;
+}
+.descendente{
+padding-right:18px !important;
+background-image: url(../img/desc.gif);
+background-position: right center;
+background-repeat: no-repeat;
+}
+
+
+
+

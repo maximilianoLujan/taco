@@ -1,0 +1,283 @@
+.clear{
+clear:both;
+}
+.columna:nth-child(odd){
+/*background-color: #e7e7e7;
+background-color: #c3ffab;*/
+background-color: #dce7ff;
+}
+.columna:nth-child(even){
+background-color: #fff;
+}
+.textleft{
+text-align:left;
+}
+.textcenter{
+text-align:center;
+}
+.textright{
+text-align:right;
+}
+.strong{
+font-weight:bolder;
+}
+.hidden{
+display:none !important;
+}
+.sub{
+padding-left:15px;
+}
+.gris{
+color:#555;
+}
+.actualizar{
+color:#0f0 !important;
+}
+.boton-alerta{
+background-color:#b00 !important;
+}
+.infobox{
+margin:20px;
+padding:9px 18px;
+background:#ccc;
+border:solid 1px #999;
+}
+
+#mensajes{
+text-align:left;
+padding:90px 12px 6px;
+margin:0;
+border:solid 1px #f00;
+background:#ff0;
+position:fixed;
+right:0;
+left:auto;
+top:0;
+max-width:50%;
+max-height:98%;
+overflow:auto;
+display:inline-block;
+}
+#mensajes *{
+max-width:98%;
+overflow:auto;
+}
+
+.mensaje{
+text-align:center;
+padding:6px 12px;
+margin:10px 20%;
+border:solid 1px #f00;
+background:#ff0;
+}
+
+.boton-reordenar{
+background-image: url(./img/th.gif);
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+.ascendente{
+background-image: url(./img/asc.gif);
+background-position: right center;
+background-repeat: no-repeat;
+}
+.descendente{
+background-image: url(./img/desc.gif);
+background-position: right center;
+background-repeat: no-repeat;
+}
+
+#indicador-de-carga, .esperar{
+background: url(./img/loading.gif) 50% 50% no-repeat #000;
+position:fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin:0;
+z-index:99;
+opacity:0.4;
+z-index:9999;
+}
+
+/*maquetacion */
+
+#wrapper{
+padding:5px 0 30px;
+text-align:left;
+}
+#wrapper-left{
+padding:20px 0 30px;
+text-align:left;
+}
+#contenedor{
+padding:0 3px;
+}
+
+/* cabecera */
+
+#barra-fija{
+position:fixed;
+top:0;
+left:0;
+right:0;
+width:auto;
+max-width:100%;
+vertical-align: middle;
+color:#fff;
+text-align:left;
+z-index:15;
+overflow:visible;
+background:#000;
+}
+#menu-principal{
+display:inline-block;
+}
+#clientes-activos{
+display:inline-block;
+vertical-align: middle;
+float:right;
+padding:7px 9px 2px 12px;
+}
+#alert-info{
+display:inline-block;
+float:right;
+color:#f00;
+font-size:22px;
+padding:9px 0 2px 9px;
+}
+#alert-info a, #alert-info a:link, #alert-info a:visited, #alert-info a .fa{
+color:#f00;
+}
+#alert-info-2{
+display:inline-block;
+float:right;
+color:#f90;
+font-size:22px;
+padding:9px 2px 2px 6px;
+}
+#alert-info-2 a, #alert-info-2 a:link, #alert-info-2 a:visited, #alert-info-2 a .fa{
+color:#f90;
+}
+
+/* medidas especificas botones */
+
+#boton-unidad-tiempo-inicio, #boton-unidad-tiempo{
+min-width:6em;
+}{
+min-width:6em;
+}
+#ajuste-inflacion{
+min-width:4.5em;
+}
+#ver{
+min-width:4.5em;
+}
+#sucursal{
+min-width:4.5em;
+}
+#filas-vacias{
+min-width:6.5em;
+}
+#logo-taco{
+float:left;
+cursor:pointer;
+min-width:5em;
+height:32px;
+background: url(./img/taco-7.png) 50% 0 no-repeat !important;
+background-size: auto 200% !important;
+display:inline-block;
+padding:4px 8px 3px;
+margin:2px;
+}
+#logo-taco:hover{
+background: url(./img/taco-7.png) 50% 100% no-repeat !important;
+background-size: auto 200% !important;
+}
+.btn-deshabilitado{
+color:#999 !important;
+}
+#boton-pass{
+cursor:pointer;
+height:32px;
+background: url(./img/candado-4.png) 50% 0 no-repeat #015486 !important;
+background-size: auto 200% !important;
+display:inline-block;
+padding:4px 8px 3px;
+margin:2px;
+text-indent:-50em;
+width:60px;
+}
+#boton-pass:hover{
+background: url(./img/candado-4.png) 50% 100% no-repeat #015486 !important;
+background-size: auto 200% !important;
+}
+
+@media screen and (max-width: 1080px){
+	html{
+	font-size:0.9em;
+	}
+}
+@media screen and (max-width: 1000px){
+	#boton-pass{
+	height:25px;
+	width:35px;
+	}
+	#logo-taco{
+	height:25px;
+	}
+}
+@media screen and (max-width: 930px){
+	html{
+	font-size:0.95em;
+	}
+}
+@media screen and (max-width: 800px){
+	#boton-unidad-tiempo-inicio, #boton-unidad-tiempo{
+	min-width:5em;
+	}
+	#ajuste-inflacion{
+	min-width:3.5em;
+	}
+	#ver{
+	min-width:4em;
+	}
+	#sucursal{
+	min-width:3.5em;
+	}
+	#filas-vacias{
+	min-width:6em;
+	}
+	#logo-taco{
+	padding:4px 2px 3px;
+	}
+	#boton-pass{
+	padding:4px 2px 3px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#boton-pass{
+	height:20px;
+	padding:0 2px;
+	margin:1px;
+	}
+	#logo-taco{
+	height:20px;
+	padding:0 2px;
+	margin:1px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
